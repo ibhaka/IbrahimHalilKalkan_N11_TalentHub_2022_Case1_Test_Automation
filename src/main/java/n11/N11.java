@@ -23,6 +23,9 @@ public class N11 {
         Log4j.info("Switched to full screen");
         //Thread.sleep(3000);
 
+
+        //Empty csv file has been added to the project file
+        //Copy csv which is in project files and paste your desktop, then change this path
         File file = new File("C:/Users/LENOVO/Desktop/N11.csv");
         FileWriter outputfile = new FileWriter(file);
 
